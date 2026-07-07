@@ -57,7 +57,7 @@ nav a{
     text-decoration: none;
     color: #333;
     font-weight: 500;
-    transition: 3s;
+    transition: 0.3s;
     font-size: 18px;
 }
 
@@ -73,7 +73,7 @@ nav a.active {
     align-items: center;
     padding: 120px 10%;
 }
-.hero-0text{
+.hero-text{
     width: 50%;
 }
 
@@ -96,9 +96,9 @@ nav a.active {
 }
 
 .intro{
-    line-height: 1.8px;
+    line-height: 1.8;
     margin-bottom: 45px;
-    color: 555;
+    color: #555;
 }
 
 .buttons{
@@ -113,12 +113,12 @@ nav a.active {
     display: inline-flex;
     overflow: hidden;
     color: white;
-    border: 2px solid#cc1ab4;
+    border: 2px solid #cc1ab4;
     padding: 15px 35px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
-    transition: 3s;
+    transition: 0.3s;
     background-color: #cc1ab4;
     justify-content: center;
     align-items: center;
@@ -133,10 +133,10 @@ nav a.active {
     text-decoration: none;
     display: inline;
     color: #cc1ab4;
-    border: 2px solid#cc1ab4;
+    border: 2px solid #cc1ab4;
     padding: 15px 35px;
     border-radius: 50px;
-    transition: 3s;
+    transition: 0.3s;
 }
 
 .btn2:hover{
@@ -157,7 +157,6 @@ nav a.active {
     width: 100% ;
     height:100% ;
     object-fit: cover;
-    align-items: center;
 }
 
 @media(max-width:900px){
@@ -255,7 +254,7 @@ footer p{
     border-radius: 40px;
     text-decoration: none;
     font-weight: 600;
-    transition: 3s;
+    transition: 0.3s;
 }
 
 .download-btn:hover{
@@ -303,7 +302,7 @@ footer p{
     text-align: center;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba (128,0,128,0.4);  
+    box-shadow: 0 5px 15px rgba(128,0,128,0.4);  
 }
 
 .box i{
@@ -342,7 +341,7 @@ footer p{
 
 
 .info-boxes:hover{
-    transform: translateY(-5PX);
+    transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(128,0,128,0.4);
 }
 
@@ -372,5 +371,3 @@ footer p{
 .about-content{
     text-align: center;
 }
-
-
